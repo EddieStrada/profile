@@ -1,0 +1,107 @@
+body {
+  margin-top: 50px;
+  background-color: #F1F1F1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 5px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 42px;
+  line-height: 10px;
+}
+
+h2 {
+  color: #55198b;
+  font-size: 32px;
+  line-height: 10px;
+}
+
+
+p {
+  font-size:24px;
+  line-height: 5px;
+}
+
+p img {
+  width: 20px;
+}
+
+span a {
+  color: white;
+  background-color: #FF773D;
+  padding: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+ul li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 50px;
+}
+/*ul li {
+  list-style-type: none;
+}*/
+i:hover {
+  background-color: white;
+  color: #c0a9d6;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.click:hover {
+  background-color: #f7bca5;
+}
+
+
+.container {
+  width: 600px;
+  margin:40px auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    /*margin: 40px auto;*/
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    /*margin: 40px auto;*/
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
